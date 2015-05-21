@@ -22,9 +22,9 @@
 %
 % Note that we have ignored the inequality constraints. In the below
 % optimization code, we set \alpha_i to zero if it becomes negative, and to
-% C if it gets larger than C. This can be seen as a projection step in a projected gradient descent
-% procedure. This procedure gives identical results to solving the
-% optimization problem using MATLAB's quadprog.
+% C if it gets larger than C. This can be seen as a projection step in a 
+% projected gradient descent procedure. This procedure gives identical 
+% results to solving the optimization problem using MATLAB's quadprog.
 %
 % Note that data points with \alpha_i > 0 are support vectors. Support
 % vectors with \alpha_i < C also lie on the margin (their e_i>=0)
