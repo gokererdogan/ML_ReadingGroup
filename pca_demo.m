@@ -1,3 +1,9 @@
+%% PCA Demonstration
+% This script illustrates PCA and Kernel PCA with some toy examples.
+% 
+% Goker Erdogan
+% 4 June 2015
+
 %% PCA for bivariate normal
 % generate bivariate normal data
 X = mvnrnd([0, 0], [1, .9; .9, 1], 200);

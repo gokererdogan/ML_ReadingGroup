@@ -1,3 +1,9 @@
+%% Hamiltonian MCMC Demonstration
+% Here we demonstrate Hamiltonian MCMC with some examples.
+% Sampling procedure is implemented in hamiltonian_mcmc_sample function.
+%
+% Goker Erdogan
+% 4 June 2015
 %% sample from N(0,1)
 u = @(x) (x^2 / 2.0);
 gU = @(x) (x);
