@@ -27,7 +27,7 @@
 % results to solving the optimization problem using MATLAB's quadprog.
 %
 % Note that data points with \alpha_i > 0 are support vectors. Support
-% vectors with \alpha_i < C also lie on the margin (their e_i>=0)
+% vectors with \alpha_i < C also lie on the margin (their e_i>=0
 % inequalities are active, i.e., e_i=0). For \alpha_i = C, e_i>=0 is not
 % active; therefore, e_i can be > 0.
 % Support vectors on the margin are marked with red circles.
